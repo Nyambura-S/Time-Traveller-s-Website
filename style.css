@@ -237,3 +237,11 @@ h2 {
 #warnings⚠️ h2 {
     text-align: center;
 }
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures center alignment */
+}
+figcaption {
+  text-align: center;
+}
