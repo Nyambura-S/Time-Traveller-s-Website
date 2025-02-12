@@ -1,0 +1,238 @@
+/* Set the background color */
+body {
+    background-color: #EED6B2; /* Warm nostalgic beige */
+    color: #4A3F35; /* Dark brown for text */
+    font-family: 'Georgia', serif; /* Classic adventure-style font */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #8B5E3C; /* Subtle underlining */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #ADD8E6; /* Light blue background */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Remove default list styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Display links in a row */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Style the links */
+nav ul li a {
+    text-decoration: none;
+    color: #4A3F35; /* Dark brown text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #87CEEB; /* Slightly darker blue */
+    border-radius: 5px;
+}
+img {
+    width: 300px; /* Adjust the width */
+    height: 200px; /* Keeps the aspect ratio */
+    border-radius: 10px; /* Rounds the corners */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+}
+section {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 10px; /* Optional: adds a little space from the edge */
+    width: 100%; /* Ensures it spans across the page */
+}
+
+/* Style the section for a more adventurous feel */
+#begin {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Fun and modern font */
+}
+
+/* Styling the buttons */
+#begin button {
+    background: linear-gradient(45deg, #ff9800, #ff5722); /* Gradient for an adventurous feel */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.4);
+}
+
+/* Hover effect - Makes it look exciting */
+#begin button:hover {
+    background: linear-gradient(45deg, #ff5722, #e91e63);
+    transform: scale(1.1); /* Slightly enlarges */
+    box-shadow: 0 8px 20px rgba(255, 87, 34, 0.6);
+}
+
+/* Removes the default link styling inside the button */
+#begin button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#travel {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 139, 0.8)); /* Dark sci-fi glow */
+    color: #00eaff; /* Neon blue, futuristic */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 238, 255, 0.8);
+    width: 80%;
+    margin: auto;
+}
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+#travel {
+    position: relative;
+    border: 3px solid transparent;
+    animation: glow-border 3s infinite alternate;
+}
+
+@keyframes glow-border {
+    0% {
+        border-color: cyan;
+        box-shadow: 0px 0px 20px cyan;
+    }
+    100% {
+        border-color: blue;
+        box-shadow: 0px 0px 40px blue;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap'); /* Old typewriter-style font */
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    color: #5c4033; /* Dark brown to match the nostalgic feel */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+#travel ul {
+    list-style: none; /* Removes default bullets */
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Special Elite', cursive; /* Typewriter feel */
+}
+
+#travel ul li {
+    padding-left: 35px; /* Creates space for emojis */
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add the specific emojis before each list item */
+#travel ul li:nth-child(1)::before { content: "⏳ "; position: absolute; left: 10px; }
+#travel ul li:nth-child(2)::before { content: "✨ "; position: absolute; left: 10px; }
+#travel ul li:nth-child(3)::before { content: "🌌 "; position: absolute; left: 10px; }
+#travel ul li:nth-child(4)::before { content: "❄️ "; position: absolute; left: 10px; }
+#travel ul li:nth-child(5)::before { content: "🌠 "; position: absolute; left: 10px; }
+#travel ul li:nth-child(6)::before { content: "💤 "; position: absolute; left: 10px; }
+#travel ul li:nth-child(7)::before { content: "⚡ "; position: absolute; left: 10px; }
+#travel ul li:nth-child(8)::before { content: "🪨 "; position: absolute; left: 10px; }
+
+/* Hover effect for interactivity */
+#travel ul li:hover {
+    transform: translateX(10px); /* Slight movement for fun */
+    font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+#warnings⚠️ article {
+    font-family: 'Patrick Hand', cursive; /* A more natural handwritten font */
+    font-size: 22px; /* Big enough to look like casual handwriting */
+    line-height: 1.6;
+    background: rgba(255, 250, 230, 0.85); /* Aged paper look */
+    padding: 20px;
+    border-left: 6px dashed rgba(139, 69, 19, 0.8); /* Old notebook-style margin */
+    width: 80%; /* Keeps it from stretching too wide */
+    margin: auto; /* Centers it in the section */
+    transform: rotate(none); /* Slightly tilted for a scribbled effect */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+}
+
+/* Ink-like faded look */
+#warnings⚠️ article p, 
+#warnings⚠️ article ol {
+    color: #3a2d0b; /* Dark brown ink effect */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Slight blur for worn ink */
+}
+
+/* Hand-drawn bullet points */
+#warnings⚠️ article ol {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#warnings⚠️ article ol li {
+    position: relative;
+    padding-left: 30px;
+    font-family: 'Shadows Into Light', cursive; /* Adds a mix of styles for variety */
+    font-size: 20px;
+}
+
+/* Doodle-style bullet points */
+#warnings⚠️ article ol li::before {
+    content: "✎"; /* Pencil or "⚠️" for danger vibe */
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    color: #8b4513; /* Brown ink */
+}
+#warnings⚠️ h2 {
+    text-align: center;
+}
