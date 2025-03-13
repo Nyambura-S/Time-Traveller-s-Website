@@ -1,6 +1,6 @@
 * Set the background color */
 body {
-    background-color: #EED6B2; /* Warm nostalgic beige */
+    background-color: #ecae51; /* Warm nostalgic beige */
     color: #4A3F35; /* Dark brown for text */
     font-family: 'Georgia', serif; /* Classic adventure-style font */
     margin: 0;
@@ -17,10 +17,6 @@ h1 {
     display: inline-block;
     padding-bottom: 5px;
 }
-h1 {
-  text-align: center;
-}
-
 /* Paragraph styling */
 p {
     font-size: 18px;
@@ -70,6 +66,10 @@ img {
     border-radius: 10px; /* Rounds the corners */
     display: block;
     margin: 20px auto; /* Centers the image */
+}
+figcaption {
+    text-align: center;
+
 }
 section {
     text-align: left;
@@ -238,12 +238,4 @@ h2 {
 }
 #warnings⚠️ h2 {
     text-align: center;
-}
-figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Ensures center alignment */
-}
-figcaption {
-  text-align: center;
 }
